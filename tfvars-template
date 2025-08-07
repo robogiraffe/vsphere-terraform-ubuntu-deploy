@@ -1,0 +1,19 @@
+# Fill all the values and rename file to filename.tvars. 
+# The tvars file will be ignored by git
+# Vms spec
+vm_name              = "dev-ubuntu-vm"
+project_folder_name  = "Project1"
+vm_ip_address        = "192.168.1.100"
+vm_netmask           = 24
+vm_gateway           = "192.168.1.1"
+vm_disk_size         = 30
+
+# Sensetive
+vm_user_default      = "ubuntu"
+vm_password_default  = "ubuntu_default_password"
+
+vm_user              = "myuser"
+vm_user_password     = "my-secure-password"
+
+vsphere_user         = "administrator@vsphere.local"
+vsphere_password     = "your_vsphere_password"
