@@ -41,11 +41,11 @@ Usage
     1. Initialization
        terraform init
     2. Planning
-       terraform plan -var-file="dev_project.tfvars"
+       terraform plan -var-file="project.tfvars"
     3. Applying
-       terraform apply -var-file="dev_project.tfvars"
+       terraform apply -var-file="project.tfvars"
     4. Destroying
-       terraform destroy -var-file="dev_project.tfvars"
+       terraform destroy -var-file="project.tfvars"
 
 Expected Outcome
 
