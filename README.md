@@ -2,9 +2,11 @@
 vsphere terraform ubuntu automation deploy
 
 This project relies on a pre-configured Ubuntu 24.04 template in vSphere.
+
     • Installed Terraform.
     • Access to vSphere.
     • Ubuntu 24 Template.
+    
     1. Create a Base VM
         ◦ Create a virtual machine from a clean Ubuntu Server 24.04 LTS image.
     2. Install Necessary Tools
