@@ -9,6 +9,7 @@ resource "vsphere_virtual_machine" "ubuntu_static" {
   resource_pool_id = data.vsphere_host.host.resource_pool_id
   datastore_id     = data.vsphere_datastore.datastore.id
   folder           = var.project_folder_name
+  firmware         = "efi"
   
   num_cpus = var.vm_cpus
   memory   = var.vm_memory
